@@ -55,8 +55,6 @@ class Connection {
   /// The game's delegate
   var delegate: ConnectionDelegate?
   
-  // MARK: Initialization
-  
   /// Prepares all the needed cards based
   /// on the passed amount of pairs.
   init(numberOfPairs: Int) {
