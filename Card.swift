@@ -8,8 +8,6 @@
 import Foundation
 
 struct Card {
-
-  // MARK: Properties
   
   /// The card's identifier.
   /// Used to check for a match.
@@ -25,14 +23,10 @@ struct Card {
   /// Might be used in a score system.
   var hasBeenFlipped = false
   
-  // MARK: Initializer
-  
   /// Prepares a card with a brand new identifier.
   init() {
     identifier = Card.makeIdentifier()
   }
-
-  // MARK: Imperatives
   
   /// Toggles the flipped state of the card.
   /// If it's face up, set it face down, and vice versa.
@@ -46,8 +40,6 @@ struct Card {
       isFaceUp = false
     }
   }
-  
-  // MARK: Static properties and methods
   
   /// The identifier count, used to retrieve an
   /// identifier for each initialized card.
@@ -65,8 +57,6 @@ struct Card {
   }
 
 }
-
-// MARK: Hashable protocol implementation
 
 extension Card: Hashable {
   
