@@ -96,8 +96,6 @@ enum Theme: Int {
 }
 
 class ViewController: UIViewController {
-
-  // MARK: Properties
   
   /// The cards presented in the UI.
   @IBOutlet var cardButtons: [UIButton]!
