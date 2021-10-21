@@ -179,7 +179,6 @@ class Connection {
   /// taken between two flips.
   private func increaseScore() {
     
-    // The following Theme code is part of one of the extra credit tasks.
     if let scoringDate = scoringDate {
       let secondsBetweenFlips = Int(Date().timeIntervalSince(scoringDate))
       
