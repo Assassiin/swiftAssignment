@@ -7,8 +7,6 @@
 
 import UIKit
 
-// The following Theme code is part of one of the extra credit tasks.
-
 typealias Emojis = [String]
 
 /// Enum representing all the possible card themes.
